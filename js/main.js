@@ -1,7 +1,6 @@
 let count = document.querySelector('#count');
 count.value = 0;
 count.textContent = count.value;
-console.log(count.value);
 
 let plus = document.querySelector('#plusButton');
 
@@ -40,8 +39,5 @@ minus.addEventListener('click', function() {
 
 function subNumber(num) {
     let count = document.querySelector('#count');
-    console.log(count.value);
-    console.log(num);
-
     return parseInt(count.value) - parseInt(num);
 }
